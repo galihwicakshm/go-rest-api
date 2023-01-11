@@ -13,5 +13,6 @@ func init() {
 }
 
 func main() {
-	initializers.DB.AutoMigrate(&models.Product{})
+	initializers.DB.AutoMigrate(&models.Barang{})
+	initializers.DB.AutoMigrate(&models.Kategori{})
 }
